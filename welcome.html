@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>魏桥国科体育运动中心</title>
+		<style>
+			:root {
+				--btnHeight: 40px;
+				--btnMargin: 20px;
+			}
+
+			html,
+			body {
+				position: relative;
+				height: 100%;
+			}
+
+			body {
+				background: #eee;
+				font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+				background-image: url(./img/welcome.jpg);
+				background-size: cover;
+				background-position: center;
+			}
+
+			* {
+				margin: 0;
+				padding: 0;
+			}
+
+			.viewBtn {
+				position: absolute;
+				left: 50%;
+				top: calc(50% + 300px);
+				z-index: 999;
+				transform: translate(-50%, -50%);
+				font-size: 40px;
+				text-decoration: none;
+				color: #ffffff;
+				background: #174265;
+				padding: 10px 40px;
+				border-radius: 5px;
+			}
+		</style>
+	</head>
+	<body>
+		<a class="viewBtn" href="./index.html">进入</a>
+	</body>
+</html>
